@@ -2,6 +2,7 @@
 <html>
 
 <head>
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+SC" rel="stylesheet">
   <title>Buzzfeed Quiz</title>
   <link type='text/css' rel='stylesheet' href='css/style.css' />
 </head>
@@ -13,16 +14,13 @@
     <div>Videos</div>
     <div>Quizes</div>
     <div>Tasty</div>
-    <input placeholder="Search">
+    <input div id="search" placeholder="Search">
   </div>
-  </div>
-  <h1>Which Ilvermorny House Are You?</h1>
-  <p id="caption">With dedication, you'll be there before you know it. </p>
   
-  <img id="tomImg" src="http://th.downloadblog.it/jSwEBLI80OIF2oYywP73GVj3zCo=/fit-in/655xorig/http%3A%2F%2Fmedia.downloadblog.it%2F5%2F57d%2Ftom-di-myspace.jpg">
-  <a href="https://en.wikipedia.org/wiki/Tom_Anderson">Tom Anderson</a>
-  <div id="tom">Buzzfeed Contributor</div>
-  <img class="siliconValley" src="https://www.hbo.com/content/dam/hbodata/series/silicon-valley/episodes/s3/silicon-valley-3-3000x1688.jpg/_jcr_content/renditions/cq5dam.web.1200.675.jpeg">
+  <div class="top">
+    <h1>Which Ilvermorny House Are You?</h1>
+    <img class="siliconValley" src="https://i.pinimg.com/originals/ec/3a/79/ec3a791674ecd19bb589e646ae984268.png">
+  </div>
   
   <div class="questions">
     <h2> Which do you most value: freedom, individuality, service, or ambition?</h2>
@@ -34,13 +32,17 @@
     <h2>If you could, which would you rather never feel again: pain, fear, regret, or shame? </h2>
     <input id="question3" placeholder="pain, fear, regret, shame">
     
-    <h2>Which would you most like to discover: a powerful magical creature loyal only to you, a spell more powerful than any other, a magical plant that will cure any illness, or an all magical city hidden from the No-Maj world? </h2>
+    <h2>Which would you most like to discover: a powerful magical creature, a powerful spell, a plant with magical healing properties, or a city hidden from the nonmagical world? </h2>
     <input id="question4" placeholder="creature, spell, plant, city">
   
   </div>
   
   <div class="result">
-    <button>Click to discover your Ilvermorny house</button>
+    <button>Discover your Ilvermorny house</button>
+  </div>
+  
+  <div id="house">
+    <p></p>
   </div>
   
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
