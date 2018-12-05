@@ -10,10 +10,10 @@
 <body>
   <div class="header">
     <div><img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/BuzzFeed.svg/1280px-BuzzFeed.svg.png"></div>
-    <div>News</div>
-    <div>Videos</div>
-    <div>Quizes</div>
-    <div>Tasty</div>
+    <div id="links">News</div>
+    <div id="links">Videos</div>
+    <div id="links">Quizzes</div>
+    <div id="links">Tasty</div>
     <input div id="search" placeholder="Search">
   </div>
   
@@ -23,16 +23,19 @@
   </div>
   
   <div class="questions">
+    <h2>Let's start with your name.</h2>
+    <input id="name" placeholder="">
+    
     <h2> Which do you most value: freedom, individuality, service, or ambition?</h2>
     <input id="question1" placeholder="freedom, individuality, service, ambition">
     
-    <h2>Which superpower would you choose: telekinesis, telepathy, enhanced speed, or enhanced intelligence?</h2>
-    <input id="question2" placeholder="telekinesis, telepathy, enhanced speed, enhanced intelligence">
+    <h2>What's your favorite genre: fantasy, mystery, adventure, or science fiction?</h2>
+    <input id="question2" placeholder="fantasy, mystery, adventure, science fiction">
     
-    <h2>If you could, which would you rather never feel again: pain, fear, regret, or shame? </h2>
-    <input id="question3" placeholder="pain, fear, regret, shame">
+    <h2>Which is your favorite color: green, red, yellow, or blue? </h2>
+    <input id="question3" placeholder="green, red, yellow, blue">
     
-    <h2>Which would you most like to discover: a powerful magical creature, a powerful spell, a plant with magical healing properties, or a city hidden from the nonmagical world? </h2>
+    <h2>Which would you most like to discover: a magical creature, a powerful spell, a plant with healing properties, or a hidden city? </h2>
     <input id="question4" placeholder="creature, spell, plant, city">
   
   </div>
@@ -43,6 +46,7 @@
   
   <div id="house">
     <p></p>
+    <img id="houseimg" src="">
   </div>
   
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
